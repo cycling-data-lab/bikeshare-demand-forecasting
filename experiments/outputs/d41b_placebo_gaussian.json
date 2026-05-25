@@ -1,0 +1,116 @@
+{
+  "config": {
+    "K_NN": 6,
+    "SIGMA_M": 300.0,
+    "FEATS_IMD": [
+      "gtfs_heavy_stops_300m",
+      "infra_cyclable_features_300m",
+      "elevation_m",
+      "topography_roughness_index"
+    ],
+    "CONDITIONS": [
+      [
+        "W0_bare",
+        0.0,
+        "none"
+      ],
+      [
+        "W1_IMD",
+        1.0,
+        "IMD"
+      ],
+      [
+        "W1_Gauss_seed0",
+        1.0,
+        "Gauss_0"
+      ],
+      [
+        "W1_Gauss_seed1",
+        1.0,
+        "Gauss_1"
+      ],
+      [
+        "W1_Gauss_seed2",
+        1.0,
+        "Gauss_2"
+      ],
+      [
+        "W3_Gauss_seed0",
+        3.0,
+        "Gauss_0"
+      ],
+      [
+        "W3_IMD",
+        3.0,
+        "IMD"
+      ]
+    ],
+    "SEED": 42
+  },
+  "rows": [
+    {
+      "condition": "W0_bare",
+      "W": 0.0,
+      "potential": "none",
+      "rho": -0.30040619416585496,
+      "p": 2.3089357079090032e-144,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W1_IMD",
+      "W": 1.0,
+      "potential": "IMD",
+      "rho": -0.07068802425130805,
+      "p": 3.91203754768024e-09,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W1_Gauss_seed0",
+      "W": 1.0,
+      "potential": "Gauss_0",
+      "rho": -0.02268383932601298,
+      "p": 0.05911984654063304,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W1_Gauss_seed1",
+      "W": 1.0,
+      "potential": "Gauss_1",
+      "rho": -0.030231462672488985,
+      "p": 0.011885812223097349,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W1_Gauss_seed2",
+      "W": 1.0,
+      "potential": "Gauss_2",
+      "rho": -0.028672873371615434,
+      "p": 0.017043234789518694,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W3_Gauss_seed0",
+      "W": 3.0,
+      "potential": "Gauss_0",
+      "rho": 0.06956816955130296,
+      "p": 6.85801585186604e-09,
+      "n_modes": 6923
+    },
+    {
+      "condition": "W3_IMD",
+      "W": 3.0,
+      "potential": "IMD",
+      "rho": 0.09159039866074763,
+      "p": 2.2509255208195077e-14,
+      "n_modes": 6923
+    }
+  ],
+  "gauss_W1_mean": -0.027196058456705797,
+  "gauss_W1_range": [
+    -0.030231462672488985,
+    -0.02268383932601298
+  ],
+  "gauss_W3_mean": 0.06956816955130296,
+  "verdict": "Gaussian disorder ALSO destroys the signal.\n  \u2192 Anderson framing is empirically FALSE.\n  \u2192 The bare-Laplacian result is purely topological; reframe paper.",
+  "wall_time_s": 43.4
+}

@@ -1,0 +1,233 @@
+{
+  "n_modes_total": 6923,
+  "n_modes_lowfreq": 3468,
+  "rho_pooled": -0.30040619416585496,
+  "p_pooled": 2.3089357079090032e-144,
+  "rho_lowfreq_half": -0.1749865368849988,
+  "p_lowfreq_half": 3.013602251836742e-25,
+  "banded": [
+    {
+      "band": 0,
+      "freq_lo": 0.0,
+      "freq_hi": 0.1,
+      "n": 697,
+      "spearman_rho": -0.10261942405076482,
+      "spearman_p": 0.006697362114000264,
+      "ipr_median": 0.027562101700360303,
+      "cn_median": 0.0009797611919057456
+    },
+    {
+      "band": 1,
+      "freq_lo": 0.1,
+      "freq_hi": 0.2,
+      "n": 693,
+      "spearman_rho": -0.2364171368602413,
+      "spearman_p": 2.9388476968740015e-10,
+      "ipr_median": 0.027992625673910237,
+      "cn_median": 0.0003501263366612069
+    },
+    {
+      "band": 2,
+      "freq_lo": 0.2,
+      "freq_hi": 0.3,
+      "n": 692,
+      "spearman_rho": -0.18859108930464005,
+      "spearman_p": 5.823059507821215e-07,
+      "ipr_median": 0.029422120502507757,
+      "cn_median": 0.00021882230183285913
+    },
+    {
+      "band": 3,
+      "freq_lo": 0.3,
+      "freq_hi": 0.4,
+      "n": 692,
+      "spearman_rho": -0.10963755801178317,
+      "spearman_p": 0.003881820825892556,
+      "ipr_median": 0.03242556215484339,
+      "cn_median": 0.00024069118225892466
+    },
+    {
+      "band": 4,
+      "freq_lo": 0.4,
+      "freq_hi": 0.5,
+      "n": 694,
+      "spearman_rho": -0.19449788423312778,
+      "spearman_p": 2.417456940833644e-07,
+      "ipr_median": 0.0273963043530355,
+      "cn_median": 0.0002076595115088516
+    },
+    {
+      "band": 5,
+      "freq_lo": 0.5,
+      "freq_hi": 0.6,
+      "n": 691,
+      "spearman_rho": -0.14972731296615482,
+      "spearman_p": 7.781524175358354e-05,
+      "ipr_median": 0.023163856116401045,
+      "cn_median": 0.00018252077520337288
+    },
+    {
+      "band": 6,
+      "freq_lo": 0.6,
+      "freq_hi": 0.7,
+      "n": 691,
+      "spearman_rho": -0.19717434766969424,
+      "spearman_p": 1.740670205235233e-07,
+      "ipr_median": 0.025573990959852404,
+      "cn_median": 0.00020957343811822576
+    },
+    {
+      "band": 7,
+      "freq_lo": 0.7,
+      "freq_hi": 0.8,
+      "n": 693,
+      "spearman_rho": -0.31467504415647873,
+      "spearman_p": 2.1511743970192058e-17,
+      "ipr_median": 0.029352372781475854,
+      "cn_median": 0.00015926850143336356
+    },
+    {
+      "band": 8,
+      "freq_lo": 0.8,
+      "freq_hi": 0.9,
+      "n": 692,
+      "spearman_rho": -0.3997457416561839,
+      "spearman_p": 6.165301647520268e-28,
+      "ipr_median": 0.10017444765892153,
+      "cn_median": 9.377135930492217e-05
+    },
+    {
+      "band": 9,
+      "freq_lo": 0.9,
+      "freq_hi": 1.0,
+      "n": 688,
+      "spearman_rho": -0.37883833813771545,
+      "spearman_p": 6.6642094496746235e-25,
+      "ipr_median": 0.305117831614492,
+      "cn_median": 2.3953454104674463e-05
+    }
+  ],
+  "quartile_contrast": [
+    {
+      "band": 0,
+      "freq_lo": 0.0,
+      "freq_hi": 0.1,
+      "n_ext": 175,
+      "n_loc": 175,
+      "cn_extended_mean": 0.010046744489290074,
+      "cn_localized_mean": 0.0035778433226035184,
+      "cn_extended_median": 0.0013567886475176415,
+      "cn_localized_median": 0.0006793818074714816,
+      "ratio_ext_over_loc": 2.808044842494466
+    },
+    {
+      "band": 1,
+      "freq_lo": 0.1,
+      "freq_hi": 0.2,
+      "n_ext": 174,
+      "n_loc": 174,
+      "cn_extended_mean": 0.0012116530294799504,
+      "cn_localized_mean": 0.0005706161103063035,
+      "cn_extended_median": 0.0005080217725411116,
+      "cn_localized_median": 0.00013150131889757476,
+      "ratio_ext_over_loc": 2.123411883393096
+    },
+    {
+      "band": 2,
+      "freq_lo": 0.2,
+      "freq_hi": 0.3,
+      "n_ext": 173,
+      "n_loc": 173,
+      "cn_extended_mean": 0.0010031123944099147,
+      "cn_localized_mean": 0.0004598841733715322,
+      "cn_extended_median": 0.00036375474257731365,
+      "cn_localized_median": 0.0001050898832612255,
+      "ratio_ext_over_loc": 2.181228345076181
+    },
+    {
+      "band": 3,
+      "freq_lo": 0.3,
+      "freq_hi": 0.4,
+      "n_ext": 173,
+      "n_loc": 173,
+      "cn_extended_mean": 0.0010796820899881274,
+      "cn_localized_mean": 0.0006294020656598017,
+      "cn_extended_median": 0.0003271372453022894,
+      "cn_localized_median": 0.00015781837934731522,
+      "ratio_ext_over_loc": 1.7154091937342109
+    },
+    {
+      "band": 4,
+      "freq_lo": 0.4,
+      "freq_hi": 0.5,
+      "n_ext": 174,
+      "n_loc": 174,
+      "cn_extended_mean": 0.0007649440114306229,
+      "cn_localized_mean": 0.0002426497507883552,
+      "cn_extended_median": 0.00024721442351040355,
+      "cn_localized_median": 7.012620192142163e-05,
+      "ratio_ext_over_loc": 3.152461558049672
+    },
+    {
+      "band": 5,
+      "freq_lo": 0.5,
+      "freq_hi": 0.6,
+      "n_ext": 173,
+      "n_loc": 173,
+      "cn_extended_mean": 0.00045985849838470677,
+      "cn_localized_mean": 0.0003213530086069777,
+      "cn_extended_median": 0.00019595017936905926,
+      "cn_localized_median": 5.916879423798012e-05,
+      "ratio_ext_over_loc": 1.4310072912593284
+    },
+    {
+      "band": 6,
+      "freq_lo": 0.6,
+      "freq_hi": 0.7,
+      "n_ext": 173,
+      "n_loc": 173,
+      "cn_extended_mean": 0.0005510915474306131,
+      "cn_localized_mean": 0.0003829917047163394,
+      "cn_extended_median": 0.00021971427368539054,
+      "cn_localized_median": 3.5114149323822624e-05,
+      "ratio_ext_over_loc": 1.4389124898639147
+    },
+    {
+      "band": 7,
+      "freq_lo": 0.7,
+      "freq_hi": 0.8,
+      "n_ext": 174,
+      "n_loc": 174,
+      "cn_extended_mean": 0.0006683888988847645,
+      "cn_localized_mean": 0.00028794628773951735,
+      "cn_extended_median": 0.00024664599000970186,
+      "cn_localized_median": 2.378888089748241e-05,
+      "ratio_ext_over_loc": 2.3212276988596012
+    },
+    {
+      "band": 8,
+      "freq_lo": 0.8,
+      "freq_hi": 0.9,
+      "n_ext": 173,
+      "n_loc": 173,
+      "cn_extended_mean": 0.0005940822950507032,
+      "cn_localized_mean": 0.000319025545413635,
+      "cn_extended_median": 0.00022779077459369259,
+      "cn_localized_median": 1.1556619334779216e-05,
+      "ratio_ext_over_loc": 1.8621778211536046
+    },
+    {
+      "band": 9,
+      "freq_lo": 0.9,
+      "freq_hi": 1.0,
+      "n_ext": 172,
+      "n_loc": 172,
+      "cn_extended_mean": 0.0004672991420279364,
+      "cn_localized_mean": 6.122277372202313e-05,
+      "cn_extended_median": 0.0001315160178504542,
+      "cn_localized_median": 8.376135117217645e-06,
+      "ratio_ext_over_loc": 7.632766593517455
+    }
+  ],
+  "wall_time_s": 28.1
+}

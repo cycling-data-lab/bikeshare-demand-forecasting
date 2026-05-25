@@ -1,0 +1,361 @@
+{
+  "config": {
+    "K_NN": 6,
+    "SIGMA_M": 300.0
+  },
+  "n_cities_attempted": 25,
+  "n_cities_processed": 24,
+  "per_city": [
+    {
+      "city": "Bluebikes Boston",
+      "slug": "boston_bluebikes",
+      "tier": "tier1",
+      "N": 493,
+      "n_modes": 493,
+      "rho": -0.4512687850104885,
+      "p": 4.1711876531819566e-26
+    },
+    {
+      "city": "Capital Bikeshare DC",
+      "slug": "dc_capitalbikeshare",
+      "tier": "tier1",
+      "N": 765,
+      "n_modes": 765,
+      "rho": -0.39377493263514585,
+      "p": 8.84243619565237e-30
+    },
+    {
+      "city": "Divvy Chicago",
+      "slug": "chicago_divvy",
+      "tier": "tier1",
+      "N": 1337,
+      "n_modes": 1337,
+      "rho": -0.46753461057198104,
+      "p": 1.4634391110058503e-73
+    },
+    {
+      "city": "Bay Wheels SF",
+      "slug": "sf_baywheels",
+      "tier": "tier1",
+      "N": 552,
+      "n_modes": 552,
+      "rho": -0.3924766226385237,
+      "p": 9.016297271381303e-22
+    },
+    {
+      "city": "Santander Cycles London",
+      "slug": "london_tfl",
+      "tier": "tier1",
+      "N": 788,
+      "n_modes": 788,
+      "rho": -0.08783488476847613,
+      "p": 0.01364418296514534
+    },
+    {
+      "city": "BIXI Montr\u00e9al",
+      "slug": "montreal_bixi",
+      "tier": "tier1",
+      "N": 717,
+      "n_modes": 717,
+      "rho": -0.22819419940086128,
+      "p": 6.353585877340517e-10
+    },
+    {
+      "city": "V\u00e9lib Paris",
+      "slug": "tier2_paris",
+      "tier": "tier2",
+      "N": 1361,
+      "n_modes": 1361,
+      "rho": -0.05074447854086528,
+      "p": 0.06127062223674934
+    },
+    {
+      "city": "V\u00e9lo'v Lyon",
+      "slug": "tier2_lyon",
+      "tier": "tier2",
+      "N": 462,
+      "n_modes": 462,
+      "rho": -0.19828250627574098,
+      "p": 1.7621623615425385e-05
+    },
+    {
+      "city": "V\u00e9L\u00d4 Toulouse",
+      "slug": "tier2_toulouse",
+      "tier": "tier2",
+      "N": 448,
+      "n_modes": 448,
+      "rho": -0.25479453115157363,
+      "p": 4.540434191278701e-08
+    },
+    {
+      "city": "Le V\u00e9lO Bordeaux",
+      "slug": "tier2_velo-tbm-bordeaux",
+      "tier": "tier2",
+      "N": 228,
+      "n_modes": 228,
+      "rho": -0.1342301177409214,
+      "p": 0.04288145318265535
+    },
+    {
+      "city": "Le V\u00e9lo Marseille",
+      "slug": "tier2_levelo_inurba_marseille",
+      "tier": "tier2",
+      "N": 228,
+      "n_modes": 228,
+      "rho": -0.07530295835581877,
+      "p": 0.2574626420721845
+    },
+    {
+      "city": "V\u00e9livert Saint-\u00c9tienne",
+      "slug": "tier2_velivert_saint_etienne",
+      "tier": "tier2",
+      "N": 97,
+      "n_modes": 97,
+      "rho": -0.20809225752156532,
+      "p": 0.04082033428491157
+    },
+    {
+      "city": "Naolib Nantes",
+      "slug": "tier2_nantes",
+      "tier": "tier2",
+      "N": 123,
+      "n_modes": 123,
+      "rho": -0.32182610826637087,
+      "p": 0.0002835933608313459
+    },
+    {
+      "city": "Twisto V\u00e9loLib Caen",
+      "slug": "tier2_twisto_velolib_caen",
+      "tier": "tier2",
+      "N": 76,
+      "n_modes": 76,
+      "rho": -0.036855775803144225,
+      "p": 0.7519390436856774
+    },
+    {
+      "city": "LoveLo Rouen",
+      "slug": "tier2_inurba-rouen",
+      "tier": "tier2",
+      "N": 124,
+      "n_modes": 124,
+      "rho": -0.2309362706530291,
+      "p": 0.009864769267939695
+    },
+    {
+      "city": "V\u00e9lonecy Annecy",
+      "slug": "tier2_velonecy60minutes_annecy",
+      "tier": "tier2",
+      "N": 80,
+      "n_modes": 80,
+      "rho": -0.05602437880918893,
+      "p": 0.6215896114677463
+    },
+    {
+      "city": "VilVolt \u00c9pinal",
+      "slug": "tier2_vilvolt_epinal",
+      "tier": "tier2",
+      "N": 106,
+      "n_modes": 106,
+      "rho": -0.20263999798473437,
+      "p": 0.037229872358267496
+    },
+    {
+      "city": "V\u00e9loZef",
+      "slug": "tier2_velozef",
+      "tier": "tier2",
+      "N": 46,
+      "n_modes": 46,
+      "rho": -0.08085106382978723,
+      "p": 0.593242427755287
+    },
+    {
+      "city": "Le V\u00e9lo Star",
+      "slug": "tier2_le_velo_star",
+      "tier": "tier2",
+      "N": 57,
+      "n_modes": 57,
+      "rho": -0.001814882032667877,
+      "p": 0.9893098643894108
+    },
+    {
+      "city": "TanLib",
+      "slug": "tier2_tanlib",
+      "tier": "tier2",
+      "N": 58,
+      "n_modes": 58,
+      "rho": -0.333538404749454,
+      "p": 0.010509997627624631
+    },
+    {
+      "city": "Cap Cotentin",
+      "slug": "tier2_capcotentin",
+      "tier": "tier2",
+      "N": 49,
+      "n_modes": 49,
+      "rho": -0.17285714285714282,
+      "p": 0.23494002162447938
+    },
+    {
+      "city": "Zebullo",
+      "slug": "tier2_zebullo",
+      "tier": "tier2",
+      "N": 66,
+      "n_modes": 66,
+      "rho": -0.1773301325540132,
+      "p": 0.15432263019880768
+    },
+    {
+      "city": "V\u00e9loStan Nancy",
+      "slug": "tier2_nancy",
+      "tier": "tier2",
+      "N": 39,
+      "n_modes": 39,
+      "rho": 0.09534412955465586,
+      "p": 0.5636899386350676
+    },
+    {
+      "city": "V\u00e9lam Amiens",
+      "slug": "tier2_amiens",
+      "tier": "tier2",
+      "N": 46,
+      "n_modes": 46,
+      "rho": -0.21221091581868637,
+      "p": 0.15681677725809282
+    }
+  ],
+  "pooled_per_tier": {
+    "Tier 1 (6 networks)": {
+      "n_modes": 4652,
+      "n_cities": 6,
+      "rho_naive_pooled": -0.3928412578914095,
+      "p_naive_pooled": 1.6690640489125064e-171,
+      "rho_zscored_within_city": -0.27800410986890556,
+      "p_zscored_within_city": 2.5336719379897987e-83,
+      "rho_lowfreq_half_naive": -0.2863919632541433,
+      "p_lowfreq_half": 3.140872977706075e-45
+    },
+    "Tier 2 (19 networks)": {
+      "n_modes": 3694,
+      "n_cities": 18,
+      "rho_naive_pooled": 0.24024045247706013,
+      "p_naive_pooled": 1.1907361712199976e-49,
+      "rho_zscored_within_city": -0.1101689551095542,
+      "p_zscored_within_city": 1.892829493415813e-11,
+      "rho_lowfreq_half_naive": 0.3413794721890226,
+      "p_lowfreq_half": 4.8525661030448666e-52
+    },
+    "Combined (25 networks)": {
+      "n_modes": 8346,
+      "n_cities": 24,
+      "rho_naive_pooled": -0.12357942707135289,
+      "p_naive_pooled": 9.15757187472117e-30,
+      "rho_zscored_within_city": -0.18977493633111917,
+      "p_zscored_within_city": 1.5984585606260947e-68,
+      "rho_lowfreq_half_naive": -0.008879147576496054,
+      "p_lowfreq_half": 0.565476540923524
+    }
+  },
+  "fisher_combined": {
+    "p_fisher_all": 5.4887224919646346e-157,
+    "n_cities": 24
+  },
+  "fisher_per_tier": {
+    "tier1": {
+      "p_fisher": 3.920683108956438e-151,
+      "n_cities": 6
+    },
+    "tier2": {
+      "p_fisher": 9.857145856140304e-17,
+      "n_cities": 18
+    }
+  },
+  "banded": [
+    {
+      "band": 0,
+      "freq_lo": 0.0,
+      "freq_hi": 0.1,
+      "n": 845,
+      "spearman_rho": 0.04132238407181977,
+      "spearman_p": 0.23016653232804507
+    },
+    {
+      "band": 1,
+      "freq_lo": 0.1,
+      "freq_hi": 0.2,
+      "n": 838,
+      "spearman_rho": -0.055563217672882116,
+      "spearman_p": 0.10798908487931283
+    },
+    {
+      "band": 2,
+      "freq_lo": 0.2,
+      "freq_hi": 0.3,
+      "n": 833,
+      "spearman_rho": -0.02203808335730529,
+      "spearman_p": 0.5253113958378258
+    },
+    {
+      "band": 3,
+      "freq_lo": 0.3,
+      "freq_hi": 0.4,
+      "n": 836,
+      "spearman_rho": 0.0398600853548344,
+      "spearman_p": 0.24963587829808134
+    },
+    {
+      "band": 4,
+      "freq_lo": 0.4,
+      "freq_hi": 0.5,
+      "n": 840,
+      "spearman_rho": 0.0067216648889892785,
+      "spearman_p": 0.845765248372
+    },
+    {
+      "band": 5,
+      "freq_lo": 0.5,
+      "freq_hi": 0.6,
+      "n": 828,
+      "spearman_rho": 0.06510940112389693,
+      "spearman_p": 0.06111268346889481
+    },
+    {
+      "band": 6,
+      "freq_lo": 0.6,
+      "freq_hi": 0.7,
+      "n": 835,
+      "spearman_rho": 0.002775070148161905,
+      "spearman_p": 0.9361820029518261
+    },
+    {
+      "band": 7,
+      "freq_lo": 0.7,
+      "freq_hi": 0.8,
+      "n": 834,
+      "spearman_rho": -0.09075010696132156,
+      "spearman_p": 0.008734891706225364
+    },
+    {
+      "band": 8,
+      "freq_lo": 0.8,
+      "freq_hi": 0.9,
+      "n": 837,
+      "spearman_rho": -0.1706137966739042,
+      "spearman_p": 6.866903558216715e-07
+    },
+    {
+      "band": 9,
+      "freq_lo": 0.9,
+      "freq_hi": 1.0,
+      "n": 820,
+      "spearman_rho": -0.19821026451852064,
+      "spearman_p": 1.0398044327677098e-08
+    }
+  ],
+  "d40b_headline_reference": {
+    "rho_naive": -0.3,
+    "p": "2.3e-144",
+    "n": 6923,
+    "n_cities": 9
+  },
+  "wall_time_s": 9.7
+}

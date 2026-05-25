@@ -1,0 +1,79 @@
+{
+  "config": {
+    "K_NN": 6,
+    "SIGMA_M": 300.0,
+    "FEATS_IMD": [
+      "gtfs_heavy_stops_300m",
+      "infra_cyclable_features_300m",
+      "elevation_m",
+      "topography_roughness_index"
+    ],
+    "W_LEVELS": [
+      0.0,
+      1.0
+    ],
+    "N_PERMS_GLOBAL": 100,
+    "N_PERMS_DEG": 100,
+    "N_DEG_BINS": 5,
+    "SEED": 42
+  },
+  "real_results": {
+    "0.0": {
+      "rho": -0.30040619416585496,
+      "p": 2.3089357079090032e-144,
+      "n": 6923
+    },
+    "1.0": {
+      "rho": -0.07068802425130805,
+      "p": 3.91203754768024e-09,
+      "n": 6923
+    }
+  },
+  "null_global_stats": {
+    "0.0": {
+      "mean": -0.03173871588423061,
+      "std": 0.011211910816025872,
+      "q025": -0.052963948098488096,
+      "q975": -0.011810954058158685
+    },
+    "1.0": {
+      "mean": -0.023002454926195407,
+      "std": 0.013329536576229374,
+      "q025": -0.04975333076860476,
+      "q975": 0.0033112653837074693
+    }
+  },
+  "null_degree_stats": {
+    "0.0": {
+      "mean": -0.12782645598389225,
+      "std": 0.009764527914849556,
+      "q025": -0.14398207997893972,
+      "q975": -0.11181406656598182
+    },
+    "1.0": {
+      "mean": -0.05496187251983946,
+      "std": 0.009906304287275918,
+      "q025": -0.07204861052584965,
+      "q975": -0.03773972828789201
+    }
+  },
+  "verdict": {
+    "0.0": {
+      "real_rho": -0.30040619416585496,
+      "p_empirical_vs_uniform": 0.0,
+      "p_empirical_vs_degree": 0.0,
+      "survives_uniform_null": true,
+      "survives_degree_null": true
+    },
+    "1.0": {
+      "real_rho": -0.07068802425130805,
+      "p_empirical_vs_uniform": 0.0,
+      "p_empirical_vs_degree": 0.05,
+      "survives_uniform_null": true,
+      "survives_degree_null": false
+    },
+    "delta_rho_W1_minus_W0": 0.2297181699145469,
+    "disorder_verdict": "IMD on-site disorder WEAKENS the signal (Anderson framing weakened)"
+  },
+  "wall_time_s": 186.6
+}
